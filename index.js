@@ -13,7 +13,7 @@ function command(){
     }
     else{
         if(document.body.querySelector("input").value=="list"){
-            out.innerText="No such command found"
+            out.innerText="clear : clear the screen\nlist : show all commands\n";
         }
     }
     document.body.querySelector(".prev_data").appendChild(a);

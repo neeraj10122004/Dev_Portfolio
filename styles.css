@@ -27,6 +27,7 @@ body{
 }
 
 .nav{
+    padding-top: 1vh;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -100,4 +101,9 @@ input{
 }
 .prev_data>div{
     padding: 1vw;
+}
+.i > img{
+    height: 30px;
+    width: 30px;
+    filter: brightness(0) invert(1);
 }
